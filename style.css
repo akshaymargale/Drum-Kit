@@ -2,6 +2,7 @@ body{
     text-align: center;
     color: white;
     background-color: black;
+    background-image: url("images/drum1.1.jpg");
 }
 h1{
     font-size: 6em;
@@ -36,7 +37,3 @@ h3{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-#bg-image{
-    width: 100px;
-    height: 100px;
-}
