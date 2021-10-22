@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    color: white;
+    background-color: black;
 }
 h1{
     font-size: 6em;
@@ -13,8 +15,28 @@ h3{
     justify-content: center;
 }
 .btn{
-    padding: 80px 80px;
     margin: 30px 30px;
     border-radius: 10px;
     font-size: 2em;
+}
+.btn img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.btn-container{
+    position: relative;
+    text-align: center;
+    color:black;
+  }
+  .btn-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#bg-image{
+    width: 100px;
+    height: 100px;
 }
